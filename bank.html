@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+       <div class="login_box" id="login_box">
+                <h2>Welcome My Bank</h2><br><br><br>
+          <input id ="acc_no" class="input_login" type="text" placeholder="enter your account number"> <br><br>
+          <input id ="pass" class="input_login" type="password" placeholder="your password"><br><br>
+            <div class="btn">
+              <button class="login" id="login_btn">Login</button>
+            </div>
+      </div>
+
+
+   <div class="main_page_balance" id="main_page">
+       <div class="balance">
+          <h1>Your Balance is <span class="tbalance" id="total_balance">1000.00</span> </h1>
+        </div>
+     
+        <div class="left_div">
+           <h1> Deposit <span id="total_deposit">00.00</span> </h1>
+           <input class="deposit" id="deposit_input" type="text" placeholder="deposit quantity"  >
+               <div class="addbtn">
+                  <button id="add_depositBTN" class="add">ADD MONEY</button>
+               </div>
+        </div>
+          
+           <div class="left_div">
+              <h1> Withdraw <span id="withdraw_total"> 00.00 </span></h1>
+               <input class="deposit" type="text" id="withdraw_input" placeholder="Withdraw quantity"  >
+              <div class="addbtn">
+                <button class="add" id="withdraw_BTN">Withdraw</button>
+                <!--<input type="button" class="add" id="withdraw_BTN" value="Withdraw"> এই ভাবেও hover বসানো যায়  -->
+              </div>
+            </div>
+   </div>
+
+          <script src="index.js"></script>
+
+</body>
+</html>

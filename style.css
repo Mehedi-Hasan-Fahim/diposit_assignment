@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+body{
+    background-image: url("piggy_bank.gif");
+}
+.login_box{
+    width: 500px;
+    height:330px;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.644),rgba(255, 255, 255, 0.3)
+    );
+    box-shadow: 3px 4px 10px black;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 113, 128);
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.input_login{
+    width: 90%;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid rgb(81, 0, 128);
+    box-shadow: 3px 4px 10px black ;
+}
+h2{
+    text-align: center;
+    color: rgb(18, 25, 26);
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.login{
+    background-color: rgb(43, 198, 226);
+    padding: 10px 30px;
+    box-shadow: 2px 3px 5px black;
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer ;
+}
+.login:hover{
+    background-color:green;
+   }
+
+.btn{
+    text-align: center;
+   
+}
+.balance{
+    width: 400px;
+    height: 100px;
+    
+    background-color: rgba(226, 43, 171, 0.575);
+    color: white;
+    box-shadow: 3px 4px 10px black;
+    margin: 50px auto;
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.left_div{
+    width: 40%;
+    height: 200px;
+    float: left;
+    background-color: rgba(226, 43, 128, 0.623);
+    box-shadow: 3px 4px 10px black;
+    margin: 0 auto;
+   border-radius: 20px;
+    margin-top: 20px ;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.deposit{
+    width: 85%;
+    padding: 22px;
+    border: 1px solid green;
+    margin-left: 15px;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 10px;
+}
+.add{
+    background-color: chocolate;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    font-weight: 80;
+    border-radius: 10px;
+    box-shadow:3px 4px 10px black; 
+    cursor: pointer;
+}
+.addbtn{
+    text-align: center;
+}
+.tbalance{
+    padding: 80px;
+}
+.add:hover{
+    background-color: rgba(13, 197, 13, 0.788);
+  }
